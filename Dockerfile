@@ -6,4 +6,4 @@ RUN apt update && apt install -y \
 	python3-pip
 RUN pip3 install web.py
 CMD python3 /home/ubuntu/app.py
-EXPOSE 8080
+EXPOSE 8090
